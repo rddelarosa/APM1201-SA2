@@ -30,10 +30,7 @@ Users can input their own array or generate a random array for sorting. The prog
 ### Running Locally
 1. Clone or download the repository.
 2. Install any required Python packages if needed (e.g., `random`, which is included by default).
-3. Run the `sorting_app.py` script using:
-   ```bash
-   python sorting_app.py
-   ```
+3. Run the `SA2_Awit_DelaRosa_Sigue.ipynb`
 
 ### Running in Google Colab
 1. Upload the script to your Google Drive or directly copy the code into a new Colab notebook cell.
