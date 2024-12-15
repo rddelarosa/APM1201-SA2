@@ -1,4 +1,14 @@
 # Sorting Algorithm Simulator
+---
+## Presented to:
+
+Prof. Frederick Gella
+
+## Submitted by:
+
+  - Awit, Julia
+  - Dela Rosa, Roland
+  - Sigue, Patrick
 
 ## Overview
 The Sorting Algorithm Simulator is an interactive Python-based tool designed to help users understand and visualize the workings of various sorting algorithms. By providing step-by-step insights, the simulator bridges the gap between theoretical understanding and practical application, making it an ideal learning tool for students, educators, and coding enthusiasts.
@@ -115,15 +125,6 @@ We welcome contributions! To contribute:
    ```bash
    git push origin feature-name
    ```
-5. Submit a pull request.
+5. Submit a pull request
 
----
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
-
-## Contact
-For questions or feedback, please contact [Your Name] at [your-email@example.com].
 
