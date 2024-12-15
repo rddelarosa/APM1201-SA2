@@ -21,12 +21,6 @@ The Sorting Algorithm Simulator is an interactive Python application that allows
 
 Users can input their own array or generate a random array for sorting. The program provides step-by-step output to explain how each algorithm processes the data, making it an excellent learning tool.
 
-## Features
-- Interactive user interface via Command Line Interface (CLI).
-- Supports multiple sorting algorithms with explanations.
-- Option to input custom arrays or generate random arrays.
-- Step-by-step visualization of sorting processes.
-
 ## Setup Instructions
 
 ### Prerequisites
@@ -90,13 +84,4 @@ Expected Output: `[3, 7, 10, 15]`
 ## Additional Notes
 - The random array generation is limited to 10 elements to ensure clarity in the sorting process.
 - The simulator is designed to be user-friendly for educational purposes.
-
-## Conclusion
-The Sorting Algorithm Simulator successfully demonstrates the implementation and visualization of key sorting algorithms. By providing a step-by-step explanation of the sorting process, the tool enhances understanding and serves as an excellent educational resource. Whether for students or enthusiasts, this project bridges the gap between theoretical concepts and practical application, making sorting algorithms accessible and engaging.
-
----
-For any issues or suggestions, feel free to reach out or contribute to the project!
-
-
-
 
