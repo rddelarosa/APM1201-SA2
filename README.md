@@ -10,8 +10,6 @@ Prof. Frederick Gella
   - Dela Rosa, Roland
   - Sigue, Patrick
 
-# Sorting Algorithm Simulator
-
 ## Project Description
 The Sorting Algorithm Simulator is an interactive Python application that allows users to visualize and understand various sorting algorithms. The program supports the following algorithms:
 
