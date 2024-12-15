@@ -39,7 +39,7 @@ The Sorting Algorithm Simulator is an interactive Python-based tool designed to 
 ## Installation
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/username/sorting-simulator.git
+   git clone https://github.com/rddelarosa12/sorting-simulator.git
    ```
 2. **Navigate to the Project Directory:**
    ```bash
