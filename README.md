@@ -83,48 +83,115 @@ The Sorting Algorithm Simulator is an interactive Python-based tool designed to 
 ### Merge Sort
 - **Description:** Divides the array into halves, sorts them, and merges them back together.
 - **Time Complexity:** O(n log n)
-- **Space Complexity:** O(n)
+- **S# Sorting Algorithm Simulator
 
-### Quick Sort
-- **Description:** Selects a pivot, partitions the array into smaller and larger elements, and sorts recursively.
-- **Time Complexity:** O(n log n) (average), O(n²) (worst case)
-- **Space Complexity:** O(log n)
+## Project Description
+The Sorting Algorithm Simulator is an educational tool designed to help users understand and visualize how popular sorting algorithms work. This project bridges the gap between theory and practice by providing a hands-on, interactive experience that showcases the step-by-step process of sorting arrays using different algorithms.
 
-### Selection Sort
-- **Description:** Finds the smallest element in the unsorted array and swaps it to the correct position.
-- **Time Complexity:** O(n²)
-- **Space Complexity:** O(1)
+### Features
+- **Interactive Simulation**: Supports Bubble Sort, Insertion Sort, Merge Sort, Quick Sort, and Selection Sort.
+- **Customizable Input**: Users can input custom arrays or generate random arrays.
+- **Visualization**: Displays the intermediate steps of each sorting algorithm.
+- **User-Friendly Interface**: A simple command-line interface to guide users through the process.
+
+### Benefits
+- Enhances understanding of sorting algorithms through interactive learning.
+- Promotes analytical thinking by allowing users to compare the efficiency of different algorithms.
+- Makes complex algorithmic concepts accessible and engaging.
 
 ---
 
-## Challenges and Future Enhancements
-### Challenges Faced:
-- Handling large arrays while maintaining real-time responsiveness.
-- Balancing detailed visualization with efficient computation.
+## Setup Instructions
 
-### Planned Improvements:
-1. Add advanced sorting methods (Heap Sort, Radix Sort, etc.).
-2. Implement graphical animations for enhanced visualization.
-3. Include execution time and memory usage metrics for performance comparison.
-4. Transition from CLI to a GUI or web-based platform for broader accessibility.
+### Prerequisites
+- Python 3.8 or later
+
+### Installation Steps
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/username/sorting-algorithm-simulator.git
+   cd sorting-algorithm-simulator
+   ```
+
+2. **Set Up Virtual Environment (Optional)**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install Required Libraries**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the Simulator**
+   ```bash
+   python sorting_simulator.py
+   ```
+
+---
+
+## Usage Examples
+
+### Example 1: Manual Array Input
+1. Run the simulator:
+   ```bash
+   python sorting_simulator.py
+   ```
+2. Select the option to manually input an array.
+3. Enter your array, e.g., `[5, 3, 8, 1, 2]`.
+4. Choose a sorting algorithm (e.g., Bubble Sort).
+5. Observe the step-by-step sorting process in the console.
+
+### Example 2: Random Array Generation
+1. Run the simulator:
+   ```bash
+   python sorting_simulator.py
+   ```
+2. Select the option to generate a random array.
+3. Specify the size and range of the array.
+4. Choose a sorting algorithm (e.g., Merge Sort).
+5. Observe the detailed sorting process and final sorted array.
+
+---
+
+## Test Cases
+To ensure the simulator works correctly, test cases have been provided in `tests.py`. The test cases cover:
+
+1. **Basic Functionality**: Sorting simple arrays (e.g., `[3, 1, 2]` => `[1, 2, 3]`).
+2. **Edge Cases**:
+   - Empty arrays (e.g., `[]`).
+   - Single-element arrays (e.g., `[1]`).
+   - Arrays with duplicate elements (e.g., `[4, 2, 4, 1]`).
+3. **Large Arrays**: Sorting arrays with thousands of elements to test performance.
+
+### Running Tests
+1. Ensure you are in the project directory.
+2. Run the test suite:
+   ```bash
+   python -m unittest tests.py
+   ```
+3. Review the test results in the console.
 
 ---
 
 ## Contributing
-We welcome contributions! To contribute:
+Contributions are welcome! To contribute:
 1. Fork the repository.
-2. Create a new branch:
+2. Create a feature branch:
    ```bash
    git checkout -b feature-name
    ```
 3. Commit your changes:
    ```bash
-   git commit -m "Add feature description"
+   git commit -m "Description of changes"
    ```
-4. Push to the branch:
+4. Push the branch:
    ```bash
    git push origin feature-name
    ```
-5. Submit a pull request
+5. Open a pull request.
+
+---
 
 
